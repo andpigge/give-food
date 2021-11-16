@@ -2,7 +2,6 @@
   "name": "give-food",
   "version": "1.0.0",
   "description": "Благотворительный проект Дари еду в Укранине",
-  "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack serve"
