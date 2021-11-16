@@ -2,6 +2,7 @@
   "name": "give-food",
   "version": "1.0.0",
   "description": "Благотворительный проект Дари еду в Укранине",
+  "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack serve"
@@ -16,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/andpigge/give-food/issues"
   },
-  "homepage": ".",
+  "homepage": "https://github.com/andpigge/give-food",
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
