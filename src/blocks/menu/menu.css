@@ -1,0 +1,16 @@
+$light: #EEF4F8;
+$height: 72px;
+$max-width: 1440px;
+
+.header {
+  margin: 0;
+  height: $height;
+  background-color: $light;
+
+  &__menu {
+    margin: 0 auto;
+    max-width: $max-width;
+    padding: 0 80px;
+    height: inherit;
+  }
+}
