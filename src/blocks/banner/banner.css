@@ -1,9 +1,9 @@
 .banner {
   background-color: #EEF4F8;
   background-image: url('../../shared/images/baner.png');
-  background-size: scale(864px 700px);
+  background-size: 864px 700px;
   background-repeat: no-repeat;
-  background-position: top scale(45px) right;
+  background-position: top 45px right;
 
   &__container {
     max-width: 1440px;
@@ -13,12 +13,12 @@
 
   &__title {
     margin: 0;
-    max-width: scale(674px);
-    margin-bottom: scale(24px);
+    max-width: 674px;
+    margin-bottom: 24px;
     font-family: Source Serif Pro;
     font-style: normal;
     font-weight: 600;
-    font-size: scale(48px);
+    font-size: 48px;
     line-height: 120%;
     color: #222222;
   }
