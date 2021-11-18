@@ -1,0 +1,45 @@
+.category {
+  background-color: white;
+  padding: scale(48px 80px 64px 48px);
+
+  &__container {
+    margin: 0 auto;
+    padding: scale(48px 80px);
+    max-width: scale(1280px);
+    background-color: #EEF4F8;
+    box-shadow: scale(6px 6px 20px) rgba(94, 94, 94, 0.12);
+    border-radius: scale(24px);
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: scale(28px);
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: scale(32px);
+    line-height: 132%;
+    color: #222222;
+  }
+
+  &__list {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(204px, max-content));
+    gap: scale(24px 24px);
+  }
+
+  &__item {
+
+  }
+}
+
+@media (min-width: $desktop) {
+  .category {
+    &__list {
+      grid-template-columns: repeat(auto-fit, minmax(scale(204px), max-content));
+    }
+  }
+}

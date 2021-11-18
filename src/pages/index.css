@@ -2,7 +2,9 @@
 @import url('../vendor/fonts.css');
 @import url('../shared/helpers/scale.css');
 
-/* page */
-@import url(../blocks/menu/menu.css);
-@import url(../blocks/main/main.css);
-@import url(../blocks/banner/banner.css);
+/* page main */
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/main/main.css');
+@import url('../blocks/banner/banner.css');
+@import url('../blocks/category/category.css');
+@import url('../blocks/category-card/category-card.css');

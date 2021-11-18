@@ -1,6 +1,6 @@
 $light: #EEF4F8;
-$height: 72px;
-$max-width: 1440px;
+$height: scale(72px);
+$max-width: scale(1440px);
 
 .header {
   margin: 0;
@@ -10,7 +10,7 @@ $max-width: 1440px;
   &__menu {
     margin: 0 auto;
     max-width: $max-width;
-    padding: 0 80px;
+    padding: scale(0 80px);
     height: inherit;
   }
 }
