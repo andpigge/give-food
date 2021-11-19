@@ -1,0 +1,120 @@
+$black: rgba(34, 34, 34, 1);
+$light: rgba(90, 172, 168, 1);
+
+/* @define-mixin img {
+  
+} */
+
+.product-set {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: scale(302px);
+  padding: scale(12px 20px 20px);
+  background-color: white;
+  border: scale(1px) solid #EEF4F8;
+  box-sizing: border-box;
+  border-radius: scale(16px);
+  cursor: pointer;
+
+  &_border_none {
+    border: none;
+  }
+
+  &__wrapper {
+    border: scale(1px) solid #EEF4F8;
+    position: absolute;
+    top: scale(70px);
+    left: 0;
+    height: calc(100% - 70px);
+    width: 100%;
+    border-radius: scale(16px);
+  }
+
+  &__img {
+    max-width: scale(262px);
+    object-fit: cover;
+    margin: 0 auto scale(16px);
+    display: block;
+    z-index: 9;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: scale(12px);
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: scale(20px);
+    line-height: scale(25px);
+    color: $black;
+  }
+
+  &__tag {
+    margin-bottom: scale(8px);
+    display: flex;
+    width: scale(88px);
+    height: scale(28px);
+    margin-bottom: scale(8px);
+    background-color: rgba(90, 172, 168, 0.2);
+    border-radius: scale(36px);
+
+    &_margin_buttom {
+      margin-bottom: scale(14px);
+    }
+
+    &-text {
+      margin: auto; 
+      font-family: Circular Std;
+      font-style: normal;
+      font-weight: 450;
+      font-size: scale(13px);
+      line-height: scale(16px);
+      color: $light;
+    }
+  }
+
+  &__desc {
+    margin: 0;
+    margin-bottom: scale(21px);
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 450;
+    font-size: scale(14px);
+    line-height: scale(18px);
+    color: #718283;
+  }
+
+  &__price {
+    margin: 0;
+    margin-bottom: scale(21px);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: scale(18px);
+    line-height: scale(21px);
+    color: $black;
+  }
+
+  &__btn-add {
+    width: scale(262px);
+    height: scale(44px);
+    border-radius: scale(8px);
+    background-color: $light;
+    cursor: pointer;
+    border: none;
+  }
+
+  &__icon {
+    width: scale(38px);
+    height: scale(24px);
+    object-fit: cover;
+  }
+}
+
+@media (min-width: $desktop) {
+  .productSet {
+    width: scale(302px);
+  }
+}
