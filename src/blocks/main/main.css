@@ -1,0 +1,5 @@
+.main {
+  &__margin-auto {
+    margin: 0 auto;
+  }
+}

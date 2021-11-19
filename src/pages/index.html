@@ -2,15 +2,402 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>Webpack</title>
+    <title>Дари еду</title>
   </head>
   <body>
     <main class="main">
-      <div class="baner">
-        <h1 class="baner__title">
-          123
+      <nav class="header">
+        <menu class="header__menu">
+          Menu
+        </menu>
+      </nav>
+      <section class="banner">
+        <div class="banner__container">
+          <h1 class="banner__title">
+            Все купленные продукты мы передадим нуждающимся людям
+          </h1>
+          <p class="banner__desc">
+            Здесь вы можете приобрести продукты для людей, оказавшихся в сложной жизненной ситуации.
+          </p>
+          <button class="banner__button"> 
+            <p class="banner__button-text">
+              Помочь проекту
+            </p>
+          </button>
+        </div>
+      </section>
+      <section class="category">
+        <div class="category__container">
+          <h2 class="category__title">
+            Кто нуждается в помощи
+          </h2>
+          <ul class='category__list'>
+            <li class="category__item">
+              <div class="category-card">
+                <img 
+                  src="<%=require('../shared/images/svg/category-single-mother.svg')%>"
+                  alt="Матері одиночки"
+                  class="category-card__icon"
+                />
+                <h3 class="category-card__title">
+                  Матері одиночки
+                </h3>
+              </div>
+            </li>
+            <li class="category__item">
+              <div class="category-card">
+                <img 
+                  src="<%=require('../shared/images/svg/category-large-families.svg')%>"
+                  alt="Багатодітні Сімї"
+                  class="category-card__icon"
+                />
+                <h3 class="category-card__title">
+                  Багатодітні Сімї
+                </h3>
+              </div>
+            </li>
+            <li class="category__item">
+              <div class="category-card">
+                <img 
+                  src="<%=require('../shared/images/svg/category-special.svg')%>"
+                  alt="Люди с ограниченными возможностями"
+                  class="category-card__icon"
+                />
+                <h3 class="category-card__title">
+                  Люди с ограниченными возможностями
+                </h3>
+              </div>
+            </li>
+            <li class="category__item">
+              <div class="category-card">
+                <img 
+                  src="<%=require('../shared/images/svg/category-old.svg')%>"
+                  alt="Пенсіонери"
+                  class="category-card__icon"
+                />
+                <h3 class="category-card__title">
+                  Пенсіонери
+                </h3>
+              </div>
+            </li>
+            <li class="category__item">
+              <div class="category-card">
+                <img 
+                  src="<%=require('../shared/images/svg/category-single-animals.svg')%>"
+                  alt="Матері одиночки"
+                  class="category-card__icon"
+                />
+                <h3 class="category-card__title">
+                  Животные без дома
+                </h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="goods main__margin-auto">
+        <h2 class="goods__title">
+          Наборы
+        </h2>
+        <ul class="goods__list">
+          <li class="goods__item">
+            <div class="product-set">
+              <img
+                src="<%=require('../shared/images/goods/kit-day.png')%>"
+                alt="Продукты" 
+                class="product-set__img" 
+              />
+              <h3 class="product-set__title">
+                Набор на 1 день
+              </h3>
+              <div class="product-set__tag">
+                <p class="product-set__tag-text">
+                  3 200 гр.
+                </p>
+              </div>
+              <p class="product-set__desc">
+                Крупы ; Макароны; Консервы; Масло; Молоко; Сахар; Мука; Чай; Сладости;
+              </p>
+              <p class="product-set__price">
+                75.00 UAH
+              </p>
+              <button class="product-set__btn-add">
+                <img 
+                  src="<%=require('../shared/images/svg/product-cart.svg')%>" 
+                  alt="Добавить"
+                  class="product-set__icon"
+                />
+              </button>
+            </div>
+          </li>
+          <li class="goods__item">
+            <div class="product-set">
+              <img
+                src="<%=require('../shared/images/goods/kit-week.png')%>"
+                alt="Продукты" 
+                class="product-set__img" 
+              />
+              <h3 class="product-set__title">
+                Набор на 1 неделю
+              </h3>
+              <div class="product-set__tag">
+                <p class="product-set__tag-text">
+                  3 200 гр.
+                </p>
+              </div>
+              <p class="product-set__desc">
+                Крупы ; Макароны; Консервы; Масло; Молоко; Сахар; Мука; Чай; Сладости;
+              </p>
+              <p class="product-set__price">
+                75.00 UAH
+              </p>
+              <button class="product-set__btn-add">
+                <img 
+                  src="<%=require('../shared/images/svg/product-cart.svg')%>" 
+                  alt="Добавить"
+                  class="product-set__icon"
+                />
+              </button>
+            </div>
+          </li>
+          <li class="goods__item">
+            <div class="product-set">
+              <img
+                src="<%=require('../shared/images/goods/kit-two-week.png')%>"
+                alt="Продукты" 
+                class="product-set__img" 
+              />
+              <h3 class="product-set__title">
+                Набор на 2 недели
+              </h3>
+              <div class="product-set__tag">
+                <p class="product-set__tag-text">
+                  3 200 гр.
+                </p>
+              </div>
+              <p class="product-set__desc">
+                Крупы ; Макароны; Консервы; Масло; Молоко; Сахар; Мука; Чай; Сладости;
+              </p>
+              <p class="product-set__price">
+                75.00 UAH
+              </p>
+              <button class="product-set__btn-add">
+                <img 
+                  src="<%=require('../shared/images/svg/product-cart.svg')%>" 
+                  alt="Добавить"
+                  class="product-set__icon"
+                />
+              </button>
+            </div>
+          </li>
+          <li class="goods__item">
+            <div class="product-set">
+              <img
+                src="<%=require('../shared/images/goods/kit-month.png')%>"
+                alt="Продукты" 
+                class="product-set__img" 
+              />
+              <h3 class="product-set__title">
+                Набор на 1 месяц
+              </h3>
+              <div class="product-set__tag">
+                <p class="product-set__tag-text">
+                  3 200 гр.
+                </p>
+              </div>
+              <p class="product-set__desc">
+                Крупы ; Макароны; Консервы; Масло; Молоко; Сахар; Мука; Чай; Сладости;
+              </p>
+              <p class="product-set__price">
+                75.00 UAH
+              </p>
+              <button class="product-set__btn-add">
+                <img 
+                  src="<%=require('../shared/images/svg/product-cart.svg')%>" 
+                  alt="Добавить"
+                  class="product-set__icon"
+                />
+              </button>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="goods main__margin-auto goods_padding_buttom">
+        <h2 class="goods__title">
+          Товары первой необходимости
+        </h2>
+        <ul class="goods__list">
+          <li class="goods__item">
+            <div class="product-set product-set_border_none">
+              <div class="product-set__wrapper"></div>
+              <img
+                src="<%=require('../shared/images/goods/product-one.png')%>"
+                alt="Масло Подсолнечное" 
+                class="product-set__img" 
+              />
+              <h3 class="product-set__title">
+                Масло Подсолнечное
+              </h3>
+              <div class="product-set__tag product-set__tag_margin_buttom">
+                <p class="product-set__tag-text">
+                  Упаковка 1 л
+                </p>
+              </div>
+              <p class="product-set__price">
+                75.00 UAH
+              </p>
+              <button class="product-set__btn-add">
+                <img 
+                  src="<%=require('../shared/images/svg/product-cart.svg')%>" 
+                  alt="Добавить"
+                  class="product-set__icon"
+                />
+              </button>
+            </div>
+          </li>
+          <li class="goods__item">
+            <div class="product-set product-set_border_none">
+              <div class="product-set__wrapper"></div>
+              <img
+                src="<%=require('../shared/images/goods/product-two.png')%>"
+                alt="Масло Подсолнечное" 
+                class="product-set__img" 
+              />
+              <h3 class="product-set__title">
+                Масло Подсолнечное
+              </h3>
+              <div class="product-set__tag product-set__tag_margin_buttom">
+                <p class="product-set__tag-text">
+                  Упаковка 1 л
+                </p>
+              </div>
+              <p class="product-set__price">
+                75.00 UAH
+              </p>
+              <button class="product-set__btn-add">
+                <img 
+                  src="<%=require('../shared/images/svg/product-cart.svg')%>" 
+                  alt="Добавить"
+                  class="product-set__icon"
+                />
+              </button>
+            </div>
+          </li>
+          <li class="goods__item">
+            <div class="product-set product-set_border_none">
+              <div class="product-set__wrapper"></div>
+              <img
+                src="<%=require('../shared/images/goods/product-three.png')%>"
+                alt="Масло Подсолнечное" 
+                class="product-set__img" 
+              />
+              <h3 class="product-set__title">
+                Масло Подсолнечное
+              </h3>
+              <div class="product-set__tag product-set__tag_margin_buttom">
+                <p class="product-set__tag-text">
+                  Упаковка 1 л
+                </p>
+              </div>
+              <p class="product-set__price">
+                75.00 UAH
+              </p>
+              <button class="product-set__btn-add">
+                <img 
+                  src="<%=require('../shared/images/svg/product-cart.svg')%>" 
+                  alt="Добавить"
+                  class="product-set__icon"
+                />
+              </button>
+            </div>
+          </li>
+          <li class="goods__item">
+            <div class="product-set product-set_border_none">
+              <div class="product-set__wrapper"></div>
+              <img
+                src="<%=require('../shared/images/goods/product-four.png')%>"
+                alt="Масло Подсолнечное" 
+                class="product-set__img" 
+              />
+              <h3 class="product-set__title">
+                Масло Подсолнечное
+              </h3>
+              <div class="product-set__tag product-set__tag_margin_buttom">
+                <p class="product-set__tag-text">
+                  Упаковка 1 л
+                </p>
+              </div>
+              <p class="product-set__price">
+                75.00 UAH
+              </p>
+              <button class="product-set__btn-add">
+                <img 
+                  src="<%=require('../shared/images/svg/product-cart.svg')%>" 
+                  alt="Добавить"
+                  class="product-set__icon"
+                />
+              </button>
+            </div>
+          </li>
+          <li class="goods__item">
+            <div class="product-set product-set_border_none">
+              <div class="product-set__wrapper"></div>
+              <img
+                src="<%=require('../shared/images/goods/product-five.png')%>"
+                alt="Масло Подсолнечное" 
+                class="product-set__img" 
+              />
+              <h3 class="product-set__title">
+                Масло Подсолнечное
+              </h3>
+              <div class="product-set__tag product-set__tag_margin_buttom">
+                <p class="product-set__tag-text">
+                  Упаковка 1 л
+                </p>
+              </div>
+              <p class="product-set__price">
+                75.00 UAH
+              </p>
+              <button class="product-set__btn-add">
+                <img 
+                  src="<%=require('../shared/images/svg/product-cart.svg')%>" 
+                  alt="Добавить"
+                  class="product-set__icon"
+                />
+              </button>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="about-us main__margin-auto">
+        <h1 class="about-us__title">
+          Благотворительный фонд "Дари еду"
         </h1>
-      </div>
+        <div class="about-us__container-icon">
+          <span class="about-us__line"></span>
+          <span class="about-us__icon"></span>
+          <span class="about-us__line"></span>
+        </div>
+        <div class="about-us__container">
+          <p class="about-us__desc">
+            Объединив усилия, мы сможем подарить надежду на здоровье многим маленьким пациентам, столкнувшимся с серьезными заболеваниями.
+            Поддержать работу фонда помощи больным детям России легко: вы можете сделать это финансово или приняв участие в акциях. 
+            Мы вовлекаем в программы неравнодушных людей всех возрастов. Выбирайте доступный для вас способ помощи больному ребенку: 
+            детский благотворительный центр дает шанс принять участие в судьбе маленьких пациентов каждомуОбъединив усилия, 
+            мы сможем подарить надежду на здоровье многим маленьким пациентам, столкнувшимся с серьезными заболеваниями. 
+            Поддержать работу фонда помощи больным детям России легко: вы можете сделать это финансово или приняв участие в акциях. 
+            Мы вовлекаем в программы неравнодушных людей всех возрастов. Выбирайте доступный для вас способ помощи больному ребенку: 
+            детский благотворительный центр дает шанс принять участие в судьбе маленьких пациенто.
+          </p>
+          <div class="about-us__desc-overlay"></div>
+        </div>
+        <button class="about-us__button">
+          <p class="about-us__button-text">
+            развернуть
+          </p>
+          <span class="about-us__button-icon"></span>
+        </button>
+      </section>
     </main>
   </body>
 </html>

@@ -1,0 +1,41 @@
+.goods {
+  max-width: scale(1280px);
+  padding: 0 scale(80px 64px);
+
+  &_padding_buttom {
+    padding-bottom: scale(112px);
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: scale(24px);
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: scale(48px);
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: #222222;
+  }
+
+  &__list {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(302px, max-content));
+    gap: scale(46px 24px);
+  }
+
+  &__item {
+    
+  }
+}
+
+@media (min-width: $desktop) {
+  .goods {
+    &__list {
+      grid-template-columns: repeat(auto-fit, minmax(scale(302px), max-content));
+    }
+  }
+}
