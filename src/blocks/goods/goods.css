@@ -2,6 +2,9 @@
   max-width: scale(1280px);
   padding: 0 scale(80px 64px);
 
+  &_padding_buttom {
+    padding-bottom: scale(112px);
+  }
 
   &__title {
     margin: 0;

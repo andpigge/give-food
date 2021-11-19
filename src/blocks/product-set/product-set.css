@@ -1,10 +1,6 @@
 $black: rgba(34, 34, 34, 1);
 $light: rgba(90, 172, 168, 1);
 
-/* @define-mixin img {
-  
-} */
-
 .product-set {
   position: relative;
   display: flex;

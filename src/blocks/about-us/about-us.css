@@ -1,0 +1,99 @@
+$black: rgba(34, 34, 34, 1);
+$blue: #5AACA8;
+
+@define-mixin img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: scale(1280px);
+  padding: 0 scale(80px 40px);
+
+  &__title {
+    margin: 0;
+    margin-bottom: scale(10px);
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: scale(32px);
+    line-height: 132%;
+    text-align: center;
+    color: $black;
+  }
+
+  &__container-icon {
+    margin: scale(8px) auto scale(20px);
+    display: flex;
+    align-items: center;
+  }
+
+  &__line {
+    display: block;
+    width: scale(156px);
+    height: scale(1px);
+    background: #4F4F4F;
+    opacity: 0.3;
+  }
+
+  &__icon {
+    @mixin img;
+    margin: 0 scale(24px);
+    display: block;
+    width: scale(20px);
+    height: scale(20px);
+    background-image: url('../../shared/images/svg/about-us-like.svg');
+  }
+
+  &__desc {
+    margin: 0;
+    margin-bottom: scale(46px);
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 450;
+    font-size: scale(16px);
+    line-height: scale(20px);
+    color: $black;
+
+    &-overlay {
+      position: absolute;
+      bottom: scale(74px);
+      left: 0;
+      height: scale(154px);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) -54.04%, #FFFFFF 50.51%);
+      width: 100%;
+    }
+  }
+
+  &__button {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  &__button-text {
+    margin: 0;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 450;
+    font-size: scale(16px);
+    line-height: scale(20px);
+    color: $blue;
+  }
+
+  &__button-icon {
+    @mixin img;
+    display: block;
+    width: scale(20px);
+    height: scale(20px);
+    background-image: url('../../shared/images/svg/about-us-down.svg');
+  }
+}
