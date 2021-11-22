@@ -3,7 +3,6 @@
 @import url('../shared/helpers/scale.css');
 
 /* page main */
-@import url('../blocks/menu/menu.css');
 @import url('../blocks/main/main.css');
 @import url('../blocks/banner/banner.css');
 @import url('../blocks/category/category.css');
