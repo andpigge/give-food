@@ -6,11 +6,66 @@
   </head>
   <body>
     <main class="main">
-      <nav class="header">
-        <menu class="header__menu">
-          Menu
-        </menu>
-      </nav>
+      <section class="header">
+        <nav class="header__nav">
+          <a href="#" class="header__nav-link">
+            <img 
+              src="<%=require('../shared/images/svg/logo.svg')%>" 
+              alt="logo"
+              class="header__logo"
+            />
+          </a>
+          <menu class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <p class="header__menu-text">
+                  Про нас
+                </p>
+              </li>
+              <li class="header__menu-item">
+                <p class="header__menu-text">
+                  Помочь проекту
+                </p>
+              </li>
+              <li class="header__menu-item">
+                <p class="header__menu-text">
+                  Стать волонтером
+                </p>
+              </li>
+              <li class="header__menu-item">
+                <p class="header__menu-text">
+                  Нужна помощь
+                </p>
+              </li>
+              <li class="header__menu-item">
+                <p class="header__menu-text">
+                  Контакты
+                </p>
+              </li>
+              <li class="header__menu-item">
+                <p class="header__menu-text">
+                  FAQ
+                </p>
+              </li>
+            </ul>
+          </menu>
+          <div class="header__user">
+            <ul class="header__user-list">
+              <li class="header__user-item">
+                <a href="#" class="header__user-link">
+                  <img class="header__user-icon" src="<%=require('../shared/images/svg/header-user.svg')%>" alt="Профиль">
+                </a>
+              </li>
+              <li class="header__user-item">
+                <a href="#" class="header__user-link">
+                  <img class="header__user-icon" src="<%=require('../shared/images/svg/header-card.svg')%>" alt="Корзина">
+                  <span class="header__user-counter">0</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
       <section class="banner">
         <div class="banner__container">
           <h1 class="banner__title">
