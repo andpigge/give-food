@@ -1,0 +1,118 @@
+$dark: #222;
+$dark-opacity: rgba(34, 34, 34, .5);
+
+.footer {
+  background-color: #EEF4F8;
+  padding: 100px 140px 43px 110px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: scale(1280px);
+    margin: 0 auto scale(115px);
+  }
+
+  &__menu {
+    display: flex;
+
+    &-list {
+      margin: 0;
+      padding: 0;
+      margin-right: scale(40px);
+      list-style: none;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    &-title {
+      margin: 0;
+      margin-bottom: scale(16px);
+      font-family: Formular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: scale(10px);
+      line-height: 150%;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: $dark-opacity;
+    }
+
+    &-item {
+      margin-bottom: scale(12px);
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    &-link {
+      font-family: Formular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: scale(13px);
+      line-height: 150%;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      color: $dark;
+    }
+  }
+
+  &__social {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &-item {
+      margin-right: scale(32px);
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    &-link {
+      font-family: Formular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: scale(13px);
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $dark;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+
+    &-container {
+      display: flex;
+    }
+
+    &-text {
+      margin: 0;
+      margin-right: scale(56px);
+      display: flex;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    &-link {
+      font-family: Circular Std;
+      font-style: normal;
+      font-weight: 450;
+      font-size: scale(11px);
+      line-height: 150%;
+      letter-spacing: 0.02em;
+      color: $dark-opacity;
+      text-decoration: none;
+    }
+  }
+}

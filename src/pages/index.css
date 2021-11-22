@@ -4,6 +4,7 @@
 
 /* page main */
 @import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
 @import url('../blocks/main/main.css');
 @import url('../blocks/banner/banner.css');
 @import url('../blocks/category/category.css');
@@ -11,3 +12,5 @@
 @import url('../blocks/goods/goods.css');
 @import url('../blocks/product-set/product-set.css');
 @import url('../blocks/about-us/about-us.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/line-bottom/line-bottom.css');

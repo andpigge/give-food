@@ -7,12 +7,6 @@ $max-width: scale(1440px);
   height: $height;
   background-color: #EEF4F8;
 
-  &__logo {
-    width: scale(65px);
-    height: scale(48px);
-    object-fit: cover;
-  }
-
   &__nav {
     display: flex;
     align-items: center;
@@ -21,10 +15,6 @@ $max-width: scale(1440px);
     max-width: $max-width;
     padding: 0 scale(80px);
     height: inherit;
-
-    &-link {
-      text-decoration: none;
-    }
   }
 
   &__menu {

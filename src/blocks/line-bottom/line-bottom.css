@@ -1,0 +1,7 @@
+.line-bottom {
+  /* display: block; */
+  width: inherit;
+  height: scale(1px);
+  background-color: #222222;
+  transform: translateY(scale(-2px));
+}

@@ -1,0 +1,9 @@
+.logo {
+  text-decoration: none;
+
+  &__img {
+    width: scale(65px);
+    height: scale(48px);
+    object-fit: cover;
+  }
+}
