@@ -1,0 +1,97 @@
+$dark: #222222;
+$height: scale(72px);
+$max-width: scale(1440px);
+
+.header {
+  margin: 0;
+  height: $height;
+  background-color: #EEF4F8;
+
+  &__logo {
+    width: scale(65px);
+    height: scale(48px);
+    object-fit: cover;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: $max-width;
+    padding: 0 scale(80px);
+    height: inherit;
+
+    &-link {
+      text-decoration: none;
+    }
+  }
+
+  &__menu {
+    margin: 0;
+    padding: 0;
+
+    &-list {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    &-item {
+      cursor: pointer;
+      margin-right: scale(32px);
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    &-text {
+      font-family: Circular Std;
+      font-style: normal;
+      font-weight: 450;
+      font-size: scale(20px);
+      line-height: 120%;
+      color: $dark;
+    }
+  }
+
+  &__user {
+    
+    &-list {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      list-style: none;
+    }
+
+    &-item {
+      margin-right: scale(44px);
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    &-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    &-icon {
+      width: scale(28px);
+      height: scale(28px);
+      margin-right: scale(10px);
+    }
+
+    &-counter {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: scale(27px);
+      line-height: scale(32px);
+      color: $dark;
+    }
+  }
+}
