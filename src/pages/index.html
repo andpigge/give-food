@@ -6,13 +6,13 @@
   </head>
   <body>
     <main class="main">
-      <section class="header">
+      <header class="header">
         <nav class="header__nav">
-          <a href="#" class="header__nav-link">
+          <a href="#" class="logo">
             <img 
               src="<%=require('../shared/images/svg/logo.svg')%>" 
               alt="logo"
-              class="header__logo"
+              class="logo__img"
             />
           </a>
           <menu class="header__menu">
@@ -425,9 +425,9 @@
         </ul>
       </section>
       <section class="about-us main__margin-auto">
-        <h1 class="about-us__title">
+        <h2 class="about-us__title">
           Благотворительный фонд "Дари еду"
-        </h1>
+        </h2>
         <div class="about-us__container-icon">
           <span class="about-us__line"></span>
           <span class="about-us__icon"></span>
@@ -453,6 +453,94 @@
           <span class="about-us__button-icon"></span>
         </button>
       </section>
+      <footer class="footer">
+        <div class="footer__container">
+          <a href="#" class="logo">
+            <img 
+              src="<%=require('../shared/images/svg/logo.svg')%>" 
+              alt="logo"
+              class="logo__img"
+            />
+          </a>
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <h3 class="footer__menu-title">
+                О платформе
+              </h3>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">
+                  О нас
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">
+                  Правила платформы
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+            <ul class="footer__menu-list">
+              <h3 class="footer__menu-title">
+                Документы
+              </h3>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">
+                  Сфера деятельности
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">
+                  Способы оплаты
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">
+                  Возврат средств
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="footer__social">
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                FACEBOOK
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                vkontakte
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link">
+                telegram
+              </a>
+            </li>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__info">
+          <p class="footer__info-text">
+            Copyright © 2020-2021 Все права защищены.
+          </p>
+          <div class="footer__info-container">
+            <p class="footer__info-text">
+              <a href="#" class="footer__info-link">
+                Пользовательское соглашение
+              </a>
+            </p>
+            <p class="footer__info-text">
+              <a href="#" class="footer__info-link">
+                Политика конфиденциальности
+              </a>
+            </p>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
