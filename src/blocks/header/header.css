@@ -61,7 +61,9 @@ $max-width: scale(1440px);
     }
 
     &-item {
-      margin-right: scale(44px);
+      width: scale(60px);
+      height: scale(60px);
+      margin-right: scale(16px);
 
       &:last-of-type {
         margin-right: 0;
@@ -70,21 +72,26 @@ $max-width: scale(1440px);
 
     &-link {
       display: flex;
+      align-items: center;
+      justify-content: center;
       text-decoration: none;
+      width: inherit;
+      height: inherit;
     }
 
     &-icon {
-      width: scale(28px);
-      height: scale(28px);
-      margin-right: scale(10px);
+      width: scale(24px);
+      height: scale(24px);
     }
 
     &-counter {
+      margin: scale(6px) 0 0 scale(10px);
+      margin-top: 6px;
       font-family: "Rubik", Arial, sans-serif;
       font-style: normal;
       font-weight: 400;
-      font-size: scale(27px);
-      line-height: scale(32px);
+      font-size: scale(22px);
+      line-height: scale(28px);
       color: $dark;
     }
   }
