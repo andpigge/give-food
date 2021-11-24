@@ -29,10 +29,10 @@ $dark-opacity: rgba(34, 34, 34, .5);
     &-title {
       margin: 0;
       margin-bottom: scale(16px);
-      font-family: Formular;
+      font-family: "Source Serif Pro", Arial, sans-serif;
       font-style: normal;
-      font-weight: normal;
-      font-size: scale(10px);
+      font-weight: 600;
+      font-size: scale(16px);
       line-height: 150%;
       letter-spacing: 0.08em;
       text-transform: uppercase;
@@ -49,10 +49,10 @@ $dark-opacity: rgba(34, 34, 34, .5);
 
     &-link {
       position: relative;
-      font-family: Formular;
+      font-family: "Source Serif Pro", Arial, sans-serif;
       font-style: normal;
-      font-weight: normal;
-      font-size: scale(13px);
+      font-weight: 400;
+      font-size: scale(14px);
       line-height: 150%;
       letter-spacing: 0.02em;
       text-decoration: none;
@@ -87,10 +87,10 @@ $dark-opacity: rgba(34, 34, 34, .5);
 
     &-link {
       position: relative;
-      font-family: Formular;
+      font-family: "Source Serif Pro", Arial, sans-serif;
       font-style: normal;
-      font-weight: normal;
-      font-size: scale(13px);
+      font-weight: 400;
+      font-size: scale(14px);
       line-height: 150%;
       letter-spacing: 0.04em;
       text-decoration: none;
@@ -122,12 +122,13 @@ $dark-opacity: rgba(34, 34, 34, .5);
       margin-right: scale(56px);
       display: flex;
 
-      font-family: Circular Std;
+      font-family: "Source Serif Pro", Arial, sans-serif;
       font-style: normal;
-      font-weight: 450;
-      font-size: scale(11px);
+      font-weight: 400;
+      font-size: scale(14px);
       line-height: 150%;
       letter-spacing: 0.02em;
+      color: $dark-opacity;
 
       &:last-of-type {
         margin-right: 0;
@@ -150,4 +151,9 @@ $dark-opacity: rgba(34, 34, 34, .5);
       }
     }
   }
+}
+
+.logo__img_position_footer {
+  height: scale(73px);
+  width: scale(93px);
 }

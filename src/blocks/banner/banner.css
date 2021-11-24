@@ -4,6 +4,8 @@
   background-size: scale(864px 700px);
   background-repeat: no-repeat;
   background-position: top scale(45px) right;
+  z-index: -1;
+  position: relative;
 
   &__container {
     max-width: scale(1440px);

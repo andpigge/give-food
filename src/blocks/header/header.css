@@ -6,6 +6,8 @@ $max-width: scale(1440px);
   margin: 0;
   height: $height;
   background-color: #EEF4F8;
+  box-shadow: 0px scale(1px) scale(4px) rgba(179, 179, 179, .25);
+  position: relative;
 
   &__nav {
     display: flex;
@@ -42,7 +44,7 @@ $max-width: scale(1440px);
       font-family: "Rubik", Arial, sans-serif;
       font-style: normal;
       font-weight: 400;
-      font-size: scale(20px);
+      font-size: scale(18px);
       line-height: 120%;
       text-decoration: none;
     }
