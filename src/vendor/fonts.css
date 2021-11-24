@@ -1,0 +1,54 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../shared/fonts/sourceSerifPro/SourceSerifPro-Regular.ttf') format('truetype'),
+    url('../shared/fonts/sourceSerifPro/SourceSerifPro-Regular.woff') format('woff'),
+    url('../shared/fonts/sourceSerifPro/SourceSerifPro-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url('../shared/fonts/sourceSerifPro/SourceSerifPro-SemiBold.ttf') format('truetype'),
+    url('../shared/fonts/sourceSerifPro/SourceSerifPro-SemiBold.woff') format('woff'),
+    url('../shared/fonts/sourceSerifPro/SourceSerifPro-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../shared/fonts/rubik/Rubik.ttf') format('truetype'),
+    url('../shared/fonts/rubik/Rubik.woff') format('woff'),
+    url('../shared/fonts/rubik/Rubik.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url('../shared/fonts/rubik/Rubik-medium.ttf') format('truetype'),
+    url('../shared/fonts/rubik/Rubik-medium.woff') format('woff'),
+    url('../shared/fonts/rubik/Rubik-medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url('../shared/fonts/rubik/Rubik-bold.ttf') format('truetype'),
+    url('../shared/fonts/rubik/Rubik-bold.woff') format('woff'),
+    url('../shared/fonts/rubik/Rubik-bold.woff2') format('woff2');
+}

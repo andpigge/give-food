@@ -15,7 +15,7 @@
     margin: 0;
     max-width: scale(674px);
     margin-bottom: scale(24px);
-    font-family: Source Serif Pro;
+    font-family: "Source Serif Pro", Arial, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: scale(48px);
@@ -27,9 +27,9 @@
     margin: 0;
     margin-bottom: scale(40px);
     max-width: scale(580px);
-    font-family: Circular Std;
+    font-family: "Source Serif Pro", Arial, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: scale(24px);
     line-height: 140%;
     color: #4F4F4F;
@@ -47,17 +47,12 @@
 
     &-text {
       margin: 0;
-      font-family: Source Serif Pro;
+      font-family: "Rubik", Arial, sans-serif;
       font-style: normal;
-      font-weight: normal;
+      font-weight: 400;
       font-size: scale(24px);
       line-height: 132%;
       color: #FFFFFF;
-
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 1;
-	    -webkit-box-orient: vertical;
     }
   }
 }

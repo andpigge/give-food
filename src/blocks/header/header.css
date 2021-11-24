@@ -46,13 +46,15 @@ $max-width: scale(1440px);
       }
     }
 
-    &-text {
-      font-family: Circular Std;
+    &-link {
+      color: $dark;
+      margin: 0;
+      font-family: "Rubik", Arial, sans-serif;
       font-style: normal;
-      font-weight: 450;
+      font-weight: 400;
       font-size: scale(20px);
       line-height: 120%;
-      color: $dark;
+      text-decoration: none;
     }
   }
 
@@ -75,7 +77,6 @@ $max-width: scale(1440px);
 
     &-link {
       display: flex;
-      align-items: center;
       text-decoration: none;
     }
 
@@ -86,9 +87,9 @@ $max-width: scale(1440px);
     }
 
     &-counter {
-      font-family: Roboto;
+      font-family: "Rubik", Arial, sans-serif;
       font-style: normal;
-      font-weight: normal;
+      font-weight: 400;
       font-size: scale(27px);
       line-height: scale(32px);
       color: $dark;

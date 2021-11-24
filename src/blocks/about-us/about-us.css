@@ -16,7 +16,7 @@ $blue: #5AACA8;
   &__title {
     margin: 0;
     margin-bottom: scale(10px);
-    font-family: Source Serif Pro;
+    font-family: "Source Serif Pro", Arial, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: scale(32px);
@@ -51,9 +51,9 @@ $blue: #5AACA8;
   &__desc {
     margin: 0;
     margin-bottom: scale(46px);
-    font-family: Circular Std;
+    font-family: "Rubik", Arial, sans-serif;
     font-style: normal;
-    font-weight: 450;
+    font-weight: 400;
     font-size: scale(16px);
     line-height: scale(20px);
     color: $black;
@@ -81,9 +81,9 @@ $blue: #5AACA8;
 
   &__button-text {
     margin: 0;
-    font-family: Circular Std;
+    font-family: "Rubik", Arial, sans-serif;
     font-style: normal;
-    font-weight: 450;
+    font-weight: 400;
     font-size: scale(16px);
     line-height: scale(20px);
     color: $blue;

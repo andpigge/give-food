@@ -3,9 +3,9 @@ $light: rgba(90, 172, 168, 1);
 
 .product-set {
   position: relative;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
   width: scale(302px);
   padding: scale(12px 20px 20px);
   background-color: white;
@@ -33,38 +33,44 @@ $light: rgba(90, 172, 168, 1);
     object-fit: cover;
     margin: 0 auto scale(16px);
     display: block;
+    position: relative;
     z-index: 9;
   }
 
   &__title {
     margin: 0;
     margin-bottom: scale(12px);
-    font-family: Circular Std;
+    font-family: "Rubik", Arial, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: scale(20px);
     line-height: scale(25px);
     color: $black;
+    position: relative;
+    z-index: 9;
   }
 
   &__tag {
+    display: inline-block;
     margin-bottom: scale(8px);
-    display: flex;
-    width: scale(88px);
     height: scale(28px);
     margin-bottom: scale(8px);
     background-color: rgba(90, 172, 168, 0.2);
     border-radius: scale(36px);
+    position: relative;
+    z-index: 9;
 
     &_margin_buttom {
       margin-bottom: scale(14px);
     }
 
     &-text {
+      padding: scale(6px 17px);
+      text-decoration: center;
       margin: auto; 
-      font-family: Circular Std;
+      font-family: "Rubik", Arial, sans-serif;
       font-style: normal;
-      font-weight: 450;
+      font-weight: 400;
       font-size: scale(13px);
       line-height: scale(16px);
       color: $light;
@@ -74,23 +80,27 @@ $light: rgba(90, 172, 168, 1);
   &__desc {
     margin: 0;
     margin-bottom: scale(21px);
-    font-family: Circular Std;
+    font-family: "Rubik", Arial, sans-serif;
     font-style: normal;
-    font-weight: 450;
+    font-weight: 400;
     font-size: scale(14px);
     line-height: scale(18px);
     color: #718283;
+    position: relative;
+    z-index: 9;
   }
 
   &__price {
     margin: 0;
     margin-bottom: scale(21px);
-    font-family: Roboto;
+    font-family: "Rubik", Arial, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     font-size: scale(18px);
     line-height: scale(21px);
     color: $black;
+    position: relative;
+    z-index: 9;
   }
 
   &__btn-add {
@@ -100,6 +110,8 @@ $light: rgba(90, 172, 168, 1);
     background-color: $light;
     cursor: pointer;
     border: none;
+    position: relative;
+    z-index: 9;
   }
 
   &__icon {
