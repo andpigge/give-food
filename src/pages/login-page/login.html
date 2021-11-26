@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дари еду | Вход</title>
+</head>
+<body>
+  <main class="main">
+    <a href="/" class="link-back">
+      <span class="link-back__icon"></span>
+      <p class="link-back__text">
+        Назад
+      </p>
+    </a>
+    <section class="login">
+      <div class="login__wrapper">
+        <div class="login__background"></div>
+        <div class="login__content">
+          <h1 class="login__title">
+            Войти
+          </h1>
+          <p class="login__desc">
+            С помощью соц.сетей
+          </p>
+          <div class="login__container-button-social">
+            <button type="button" class="login__button-social login__button-social_icon_facebook">
+              <p class="login__button-social-text">
+                Facebook
+              </p>
+            </button>
+            <button type="button" class="login__button-social login__button-social_icon_vk">
+              <p class="login__button-social-text">
+                Vkontakte
+              </p>
+            </button>
+          </div>
+          <p class="login__desc">
+            Через E-mail
+          </p>
+          <form class="login__form" name="login">
+            <label class="login__label">
+              <span class="login__icon login__icon_type_email"></span>
+              <input 
+                type="text" 
+                placeholder="E-mail"
+                class="login__field"
+                name="loginEmail"
+                required
+              />
+            </label>
+            <label class="login__label">
+              <span class="login__icon login__icon_type_password"></span>
+              <input 
+                type="password" 
+                placeholder="Пароль"
+                class="login__field"
+                name="loginPassword"
+                required
+              />
+              <span class="login__icon login__icon_type_password-eye"></span>
+            </label>
+            <div class="login__container-link login__container-link_margin_bottom">
+              <p class="login__text">
+                Забыли пароль?
+              </p>
+              <a href="#" class="login__link login__link_color_red">
+                Восстановить
+              </a>
+            </div>
+            <button type="submit" class="login__button">
+              <p class="login__button-text">
+                Войти
+              </p>
+            </button>
+          </form>
+          <div class="login__container-link">
+            <p class="login__text login__text_margin_right">
+              Нету аккаунта?
+            </p>
+            <a href="#" class="login__link">
+              Зарегестрироваться
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

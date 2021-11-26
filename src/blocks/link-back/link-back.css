@@ -1,0 +1,29 @@
+.link-back {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  top: scale(32px);
+  left: scale(40px);
+  text-decoration: none;
+
+  &__icon {
+    width: scale(24px);
+    height: scale(24px);
+    margin-right: scale(12px);
+    background-image: url('../../shared/images/svg/page-login/login-icon-arrow-left.svg');
+    background-repeat: no-repeat;
+    background-size: scale(24px);
+  }
+
+  &__text {
+    margin: 0;
+    font-family: "Source Serif Pro", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: scale(18px);
+    line-height: scale(18px);
+    letter-spacing: 0.02em;
+    color: black;
+  }
+}

@@ -6,10 +6,13 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin'); // Очищае�
 const MiniCssExtractPlugin = require('mini-css-extract-plugin'); 
 
 module.exports = {
-  entry: { main: './src/pages/index.js' },
+  entry: { 
+    main: './src/pages/index.js',
+    login: './src/pages/login-page/login.js',
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js',
+    filename: '[name].js',
     publicPath: '',
   },
   mode: 'development',
@@ -43,7 +46,12 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      filename: 'index.html',
       template: './src/pages/index.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'login.html',
+      template: './src/pages/login-page/login.html',
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
